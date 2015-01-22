@@ -15,5 +15,9 @@ Finally I come out with something that incorporates all the tricks, so that the 
     - **OS X + Xcode**, (XCode 6.1.1 on OS X Yosemite 10.10.1)
     - **Windows + Visual Studio**, (Visual Studio 2013 Update 4 on Windows 7 SP1 64 bits)
 
-Please refer to the above page for more information.
+Please refer to the link
+
+<http://stackoverflow.com/questions/3046889/optional-parameters-with-c-macros/28074198#28074198>
+
+for a more detailed walk-through of the codes.
 
