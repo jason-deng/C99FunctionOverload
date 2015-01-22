@@ -1,0 +1,19 @@
+# C99FunctionOverload
+
+Pure standard C99 macro implementation to overload and set optional default parameters of C/C++ functions. Inspired by brilliant people at
+
+<http://stackoverflow.com/questions/3046889/optional-parameters-with-c-macros>
+
+Finally I come out with something that incorporates all the tricks, so that the solution
+
+ 1. Uses only **standard C99** macros to achieve function overloading, no GCC/CLANG/MSVC extension involved (i.e., comma swallowing by the specific expression `, ##__VA_ARGS__` for GCC/CLANG, and implicit swallowing by `##__VA_ARGS__` for MSVC). So feel free to pass the missing `--std=c99` to your compiler if you wish =)
+ 2. Works for **zero argument**, as well as **unlimited number of arguments**, if you expand it further to suit your needs
+ 3. Works reasonably **cross-platform**, at least tested for
+
+    - **GNU/Linux + GCC** (GCC 4.9.2 on CentOS 7.0 x86_64)
+    - **GNU/Linux + CLANG/LLVM**, (CLANG/LLVM 3.5.0 on CentOS 7.0 x86_64)
+    - **OS X + Xcode**, (XCode 6.1.1 on OS X Yosemite 10.10.1)
+    - **Windows + Visual Studio**, (Visual Studio 2013 Update 4 on Windows 7 SP1 64 bits)
+
+Please refer to the above page for more information.
+
